@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Codystar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+body {
+    background-image: url('cac.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.game-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 80%;
+    max-width: 600px;
+}
+
+h1 {
+    font-family: 'Monoton', cursive;
+    font-size: 2.5em;
+    color: #2c3e50;
+}
+
+#i {
+    height: 4cm;
+    width: 100%;
+    font-size: 110px;
+    font-family: 'Fredoka One', cursive;
+    color: brown;
+    text-align: center;
+    border: 3px solid #2c3e50;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Reduce placeholder font size */
+#i::placeholder {
+    font-size: 30px;
+}
+
+#g1,
+#r {
+    width: 48%;
+    height: 2cm;
+    font-size: 30px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin: 5px;
+}
+
+#g1 {
+    background-color: #27ae60;
+    color: white;
+}
+
+#g1:hover {
+    background-color: #2ecc71;
+    transform: translateY(-2px);
+}
+
+#r {
+    background-color: #c0392b;
+    color: white;
+}
+
+#r:hover {
+    background-color: #e74c3c;
+    transform: translateY(-2px);
+}
+
+#res,
+#att {
+    font-size: 30px;
+    color: #2c3e50;
+}
