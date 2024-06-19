@@ -4,7 +4,7 @@ Welcome to the Guess the Number Game! This is a simple web-based game where you 
 
 🚀 Live Demo
 
-Check out the live demo [here](#) (Replace this with the actual link to your live demo).
+Check out the live demo [here](https://nilesh2302.github.io/Guess-the-Number/)
 
 📝 Instructions
 
